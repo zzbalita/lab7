@@ -1,0 +1,22 @@
+#wrapper{position: relative;}
+header{width: 100%}
+header nav.bg-body-tertiary{background-color: #fff !important;}
+header nav ul li a.nav-link{color: orange; text-transform: uppercase; padding: 10px 20px !important;}
+header nav ul li a.nav-link.active, header nav ul li a.nav-link:focus{color: orange !important;}
+header nav ul li a.nav-link:hover{color: blue !important;}
+header .navbar-brand{margin-right: 50px;}
+header nav ul{justify-content: end; width: 100%;}
+#formdk{background: #f2f2f2;padding: 60px;}
+#formdk h2{text-transform: uppercase; text-align: center; margin-bottom: 30px; font-weight: 700;}
+#formdk form{width: 800px; margin: 0 auto;}
+.row-group{display:flex; justify-content: space-between; margin-bottom: 20px;}
+.row-group div{width: 48%;}
+.row-group input{width: 100%; padding: 8px 15px; border-radius: 5px;border: 1px solid #ccc;}
+#formdk p{margin-bottom: 5px;}
+#formdk textarea{width: 100%; border: 1px solid #ccc;border-radius: 5px; margin-bottom: 20px;}
+#formdk input[type="submit"]{display: block; margin: 0 auto; background: orange; 
+                             border:none; padding:10px 30px; border-radius: 5px; color: #fff; text-transform: uppercase; font-weight: 700;}
+
+
+#formdk input[type="submit"]:hover{background: #FF9800;}
+
